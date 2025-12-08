@@ -1,3 +1,7 @@
+# 脚本功能:
+# 为当前选中的平面对象添加一个 Python Tag，以锁定其宽高比。
+# 作者: wujigge 邮箱: wujigge@outlook.com
+
 import c4d
 from c4d import documents, plugins
 

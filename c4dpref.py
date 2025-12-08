@@ -1,0 +1,22 @@
+import c4d
+
+c4d.CallCommand(1000474) # 配置
+
+foo[c4d.PREF_INTERFACE_LANGUAGE] = 1 # 语言: English
+prefs(465001620)[c4d.PREF_INTERFACE_LANGUAGE] = 1  # 语言: English
+prefs(465001620)[c4d.PREF_INTERFACE_EXTERNALHELP] = True # 外部浏览器:勾选
+prefs(465001620)[c4d.PREF_INTERFACE_INSERTAT] = 1 # 插入: 之前
+prefs(465001620)[c4d.PREF_INTERFACE_PASTEAT] = 1 # 粘贴: 之前
+prefs(465001624)[c4d.PREF_OPENGL_PREVIEWSIZE] = 10 # 11是2k
+prefs(465001625)[c4d.PREF_VIEW_OUTLINES] = False # 轮廓: 不勾选
+prefs(465001625)[c4d.PREF_VIEW_SEL_BOUNDINGBOXSELECTION] = False # 边界框: 不勾选
+prefs(465001626)[c4d.PREF_FILE_ASSETS_LINK] = 0 # 资产: 复制到项目文件夹
+# c4d.HUB_PREFS_ASSETSFOLDER
+prefs(465001627)[c4d.PREF_UNITS_COLORMODE_REMEMBER_LAST_LAYOUT] = True #拾色器:记住上一次布局
+prefs(465001627)[c4d.PREF_UNITS_COLORMODE_SWATCHES] = True #色块:勾选
+prefs(465001627)[c4d.PREF_UNITS_COLORMODE_SWATCHES_SHOWNAMES] = True # 显示组名称:勾选
+prefs(465001629)[c4d.PREF_COMMUNICATION_QUICKSTART_DIALOG] = False # 启动时打开Cinema 4D主页: 不勾选
+prefs(465001629)[c4d.PREF_COMMUNICATION_BUGREPORTS] = False # 报告错误: 不勾选
+prefs(1036220)[2500] = False # Redshift渲染器显卡: 不勾选
+# c4d.PREF_BROWSER_DOWNLOAD_LOCATION # 资产浏览器下载位置自行设置
+
