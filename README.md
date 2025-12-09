@@ -4,7 +4,7 @@ some c4d scripts
 
 
 ## UsageMethod <br>
-Download and decompress c4d_Scripts to C:\Program Files\Maxon Cinema 4D 2025\library\scripts , Press Shift+F12, search for a keyword, and drag the icon anywhere on the panel. <br>
+Download and decompress c4d_scripts to C:\Program Files\Maxon Cinema 4D 2025\library\scripts , Press Shift+F12, search for a keyword, and drag the icon anywhere on the panel. <br>
 
 ---
 
